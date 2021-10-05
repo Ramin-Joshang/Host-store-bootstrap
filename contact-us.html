@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- font awesome -->
+    <script src="js/all.js"></script>
+</head>
+
+<body>
+    <!--================ Header section ================-->
+    <header class="header mb-5">
+        <section class="layer"></section>
+        <div class="container-lg">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                        <button class="navbar-toggler burger-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
+                            <ul class="navbar-nav header-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link header-menu-item-link  text-light mx-xl-4 mx-lg-2" aria-current="page" href="index.html">خانه</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-menu-item-link text-light" href="feature.html">ویژگی
+                                        ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-menu-item-link text-light mx-xl-4 mx-lg-2" href="service.html">سرویس
+                                        ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-menu-item-link text-light" href="pricing.html">قیمت</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link header-menu-item-link text-light mx-xl-4 mx-lg-2 mx dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        صفحات
+                                    </a>
+                                    <ul class="dropdown-menu header-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item text-black border-bottom header-dropdown-menu-item" href="blog.html">بلاگ</a></li>
+                                        <li><a class="dropdown-item text-black header-dropdown-menu-item" href="blog-details.html">بلاگ
+                                                با جزئیات</a></li>
+                                    </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link header-menu-item-link active text-light" href="contact-us.html">تماس با
+                                        ما</a>
+                                    </li>
+                                </li>
+                            </ul>
+                            <section class="text-center">
+                                <span class="text-light fs-5 px-1"><i class="far fa-comments"></i></span>
+                                <a class="text-light" href="#">چت آنلاین</a>
+                                <a class="text-light login-btn" href="">ورود</a>
+                            </section>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--================ Banner section ================-->
+        <section class="main-banner">
+            <section class="main-banner-title">
+                <h1>آخرین داستان</h1>
+                <p>خانه / تماس با ما</p>
+
+            </section>
+        </section>
+        <!--================ End Banner section ================-->
+    </header>
+    <!--================ End Header section ================-->
+
+    <!--================ Main section ================-->
+
+
+    <section class="container">
+        <section class="row">
+            <!--Google map-->
+            <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+                <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <main class="main py-5 my-5 col-sm-12  col-lg-8">
+
+                <section class="contact-us">
+                    <h2>با ما در ارتباط باشید</h2>
+                    <form action="" class="my-4">
+                        <div class="form-group">
+                            <textarea class="form-control mb-4" placeholder="پیام ..." id="exampleFormControlTextarea1" rows="10"></textarea>
+                            <div class="row">
+                                <div class="col-sm-6 mb-4">
+                                    <input type="text" class="form-control form-control-lg" placeholder="نام" aria-label="First name">
+                                </div>
+                                <div class="col-sm-6 mb-4">
+                                    <input type="email" class="form-control form-control-lg" placeholder="ایمیل" aria-label="Last name">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <input type="text" class="form-control form-control-lg" placeholder="موضوع" aria-label="Last name">
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn-send">ارسال</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </main>
+            <aside class="sidebar py-lg-5 my-lg-5 col-sm-12 col-lg-4">
+                <section class="contact-info mt-lg-5 pt-lg-5">
+                    <section class="contact-info-item d-flex">
+                        <span class="mx-3"><i class="fa fa-home"></i></span>
+                        <section class="contact-info-item-title">
+                            <h4 class="m-0"><a href="">
+                                ایران | قزوین</a></h4>
+                            <p>همین حوالی</p>
+                        </section>
+                    </section>
+                    <section class="contact-info-item d-flex">
+                        <span class="mx-3"><i class="fas fa-tablet"></i></span>
+                        <section class="contact-info-item-title">
+                            <h4 class="m-0">
+                                <a href="tel:09195993264">09191234567</a>
+                            </h4>
+                            <p>همه روزه همه ساعته (اما نه دیگه ساعت 2 شب)</p>
+                        </section>
+                    </section>
+                    <section class="contact-info-item d-flex">
+                        <span class="mx-3"><i class="far fa-envelope"></i></span>
+                        <section class="contact-info-item-title">
+                            <h4 class="m-0">
+                                <a href="mailto:raminjoshang@yahoo.com">info@yahoo.com</a>
+                            </h4>
+                            <p>برا ما پیا بفرستید</p>
+                        </section>
+                    </section>
+                </section>
+            </aside>
+        </section>
+    </section>
+    <!--================ End Main section ================-->
+
+    <!--================ Footer section ================-->
+    <footer class="footer">
+        <section class="container">
+            <section class="row">
+                <section class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-5">
+                    <section class="about-us">
+                        <h4>درباره ما</h4>
+                        <p>از فضای میزبانی با نام هاست هم نام برده می‌شود که در اصل اگر Host را به فارسی برگردانی کنیم، همان معنی و مفهوم فضای میزبانی را می‌دهد.</p>
+                        <img src="img/logo.png" alt="">
+                    </section>
+                </section>
+                <section class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                    <section class="contact-us">
+                        <h4>اطلاعات تماس</h4>
+                        <ul>
+                            <li>
+                                <a href=""></a>آدرس : ایران | قزوین
+                            </li>
+                            <li>
+                                <a href=""></a>تلفن : 09191234567
+                            </li>
+                            <li>
+                                <a href=""></a>ایمیل : raminjoshang@yahoo.com
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                    <section class="important-links">
+                        <h4>لینک های مهم</h4>
+                        <ul>
+                            <li>
+                                <a href=""></a>قوانین و مقررات
+                            </li>
+                            <li>
+                                <a href=""></a>سوالات متداول
+                            </li>
+                            <li>
+                                <a href=""></a>حساب کاربری
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                    <section class="newsletters">
+                        <h4>خبرنامه</h4>
+                        <p>با عضویت در خبرنامه از تمامی خبرهای جدید و جدیدترین مطالب سایت باخبر شوید</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="ایمیل شما" aria-label="" aria-describedby="basic-addon1">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <section class="line"></section>
+            <section class="row py-3">
+                <p class="footer-text m-0 col-lg-8 col-md-12">
+                    CopyRight ©
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All Rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by
+                    <a href="#" target="-blank">Ramin Joshang</a>
+                    <br>فارسی و راست چین شده با <i class="ti-heart" aria-hidden="true"></i> توسط <a href="#" target="-blank">رامین جوشنگ</a>
+                </p>
+                <div class="col-lg-4 col-md-12 text-center text-lg-left footer-social mt-3">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </section>
+        </section>
+    </footer>
+    <!--================ End Footer section ================-->
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
